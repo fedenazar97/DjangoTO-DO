@@ -4,7 +4,15 @@
 <main class="container py-5">
     <section class="card card-body">
         <h1 class="display-2 text-center">Welcome to TO-DO</h1>
+        <div class="text-center">
+            <a class="btn btn-secondary" href="{% url 'signup' %}">
+                Signup
+            </a>
+            <a class="btn btn-dark" href="{% url 'login' %}">
+                Login
+            </a>
 
+        </div>
     </section>
 </main>
 {% endblock %}
